@@ -30,7 +30,7 @@ jobs:
         run: yarn install
 
       - name: Build App
-        run: yarn Build
+        run: yarn build
 
       - name: Semantic Release
         env:
